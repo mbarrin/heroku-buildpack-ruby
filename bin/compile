@@ -15,5 +15,5 @@ LanguagePack::Instrument.trace 'compile', 'app.compile' do
   end
 end
 
-`curl -sL https://dl.bintray.com/mitchellh/packer/0.4.1_linux_amd64.zip -o /app/bin`
-`cd /app/bin && unzip 0.4.1_linux_amd64.zip`
+`curl -vL https://dl.bintray.com/mitchellh/packer/0.4.1_linux_amd64.zip -o /app/bin`
+`cd /app/bin && jar xf 0.4.1_linux_amd64.zip`
